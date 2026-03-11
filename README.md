@@ -146,11 +146,6 @@ Shape:
 }
 ```
 
-## Demo Script (Video)
-
-Use this script while recording:
-- [Video Demo Script](docs/VIDEO_DEMO_SCRIPT.md)
-
 ## Architecture Walkthrough
 
 Use this file to explain code during review/interview:
