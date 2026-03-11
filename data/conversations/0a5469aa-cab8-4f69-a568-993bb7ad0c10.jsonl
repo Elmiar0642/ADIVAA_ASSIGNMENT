@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-11T03:53:17.782923+00:00", "session_id": "0a5469aa-cab8-4f69-a568-993bb7ad0c10", "role": "user", "text": "play track bbbs", "metadata": {"source": "control", "turn_id": "25154429-2eb2-4e9a-83cf-aae94114916e", "latency_ms": null}}
+{"timestamp": "2026-03-11T03:53:18.984695+00:00", "session_id": "0a5469aa-cab8-4f69-a568-993bb7ad0c10", "role": "user", "text": "Play track Baby Bees.", "metadata": {"source": "realtime", "turn_id": "ff9afe59-d90b-4018-a584-0c3d7f9122fc", "latency_ms": 1199.1263620002428}}

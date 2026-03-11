@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-10T18:51:38.858057+00:00", "session_id": "6a87f506-5334-43e8-8ce6-3777512cefe1", "role": "user", "text": "hello assignment", "metadata": {"source": "control", "turn_id": "ee077f29-c4b9-41ca-9d0a-367ff300978c", "latency_ms": null}}
+{"timestamp": "2026-03-10T18:51:38.860909+00:00", "session_id": "6a87f506-5334-43e8-8ce6-3777512cefe1", "role": "assistant", "text": "Echo response: hello assignment", "metadata": {"source": "llm", "turn_id": "ee077f29-c4b9-41ca-9d0a-367ff300978c", "latency_ms": 0.008922987035475671}}

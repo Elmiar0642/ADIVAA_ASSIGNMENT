@@ -1,0 +1,8 @@
+APIKEY
+.env
+.venv/
+.assignment_venv/
+__pycache__/
+*.pyc
+convlogs/
+data/conversations/

@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-11T03:39:25.813330+00:00", "session_id": "dced0166-eb9c-44df-b02c-702acd23ed85", "role": "user", "text": "play track bbbs", "metadata": {"source": "control", "turn_id": "39d76209-4f50-4be3-8a44-844b9b424b30", "latency_ms": null}}
+{"timestamp": "2026-03-11T03:39:27.010564+00:00", "session_id": "dced0166-eb9c-44df-b02c-702acd23ed85", "role": "user", "text": "Le track BBBS.", "metadata": {"source": "realtime", "turn_id": "2203a314-e7d3-4416-bf94-d2be7d3f756b", "latency_ms": 1245.6834629992954}}

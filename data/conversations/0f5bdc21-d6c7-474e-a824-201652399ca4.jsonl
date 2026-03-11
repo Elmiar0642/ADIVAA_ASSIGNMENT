@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-11T03:36:08.529281+00:00", "session_id": "0f5bdc21-d6c7-474e-a824-201652399ca4", "role": "user", "text": "play track bbbs", "metadata": {"source": "control", "turn_id": "1bfc8ccd-24db-4ebf-96ad-f9f742a8752a", "latency_ms": null}}
+{"timestamp": "2026-03-11T03:36:09.601984+00:00", "session_id": "0f5bdc21-d6c7-474e-a824-201652399ca4", "role": "user", "text": "letrak Bibes", "metadata": {"source": "realtime", "turn_id": "5276ca7c-81df-4111-b27f-7f91f991197b", "latency_ms": 83.8077560038073}}

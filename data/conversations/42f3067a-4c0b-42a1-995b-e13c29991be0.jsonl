@@ -1,0 +1,2 @@
+{"timestamp": "2026-03-11T03:43:13.287874+00:00", "session_id": "42f3067a-4c0b-42a1-995b-e13c29991be0", "role": "user", "text": "play audio track BBPS", "metadata": {"source": "control", "turn_id": "c93940bc-425b-4e2b-85cb-f73ee711275d", "latency_ms": null}}
+{"timestamp": "2026-03-11T03:43:13.619958+00:00", "session_id": "42f3067a-4c0b-42a1-995b-e13c29991be0", "role": "user", "text": "Le audio track BBBS.", "metadata": {"source": "realtime", "turn_id": "335f3f23-1bab-4fe4-b766-08b60996d6ab", "latency_ms": 36.44493699539453}}

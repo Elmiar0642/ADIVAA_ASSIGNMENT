@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: voice-ai-agent
+Version: 0.1.0
+Summary: FastAPI real-time voice AI agent scaffold
+Requires-Python: <3.15,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi<1.0.0,>=0.115.0
+Requires-Dist: uvicorn[standard]<1.0.0,>=0.30.0
+Requires-Dist: pydantic<3.0.0,>=2.8.0
+Requires-Dist: websockets<16.0,>=12.0
+Requires-Dist: aiohttp<4.0.0,>=3.10.0
+
+# Voice AI Agent (FastAPI)
+
+Boilerplate async FastAPI service for a real-time voice AI agent.
+
+## Run
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+uvicorn app.main:app --reload
+```
+
+## Endpoints
+
+- `GET /health`
+- `GET /metrics`
+- `WS /ws/talk`
+
+## WebSocket Messages (`/ws/talk`)
+
+Audio chunk:
+
+```json
+{
+  "type": "audio_chunk",
+  "format": "pcm16",
+  "sample_rate": 16000,
+  "data": "<base64>"
+}
+```
+
+Control message:
+
+```json
+{
+  "type": "control",
+  "action": "ping",
+  "payload": {}
+}
+```
+
+## Microphone Streaming Simulator Client
+
+Run:
+
+```bash
+python3 ws_mic_client.py --url ws://localhost:8000/ws/talk
+```
+
+Optional audio playback dependency:
+
+```bash
+pip install simpleaudio
+```
